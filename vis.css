@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 19, 2015, 11:42:55 PM
+    Author     : Jingxian
+*/
+body {
+  font: 14px sans-serif;
+}
+.feature_outer{
+    position: absolute;
+    float: left;
+    top: 1%;
+    left: 0.3%;
+    width: 13%;
+    height: 98%;
+    background: rgb(230,230,230);	
+}
+.feature{
+    position: absolute;
+    float: left;
+    left: 0%;
+    width: 100%;
+    background: rgb(119,119,119);
+    display: table;
+}
+p.feature_p{
+    text-align: center;
+    display: table-cell; 
+    vertical-align: middle;
+    color: white;
+    font-family:Georgia;
+    font-size: 1.3em;
+}
+p#feature_p-1{
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    color: white;
+    font-family:Georgia;
+    font-size: 1.6em;
+}
+
+svg{
+    position: absolute;
+    float: left;
+    top: 1%;
+    left: 14%;
+    width: 85%;
+    height: 98%;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: #000;
+}
+
+.tooltip {
+  position: absolute;
+  width: 200px;
+  height: 28px;
+  pointer-events: none;
+}
